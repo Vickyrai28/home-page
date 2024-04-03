@@ -1,0 +1,217 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+body{
+ 
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  display: flex;
+  
+}
+
+
+
+
+.bg .cir1{
+  width: 250px;
+  height: 250px;
+  background-image:linear-gradient(rgb(13, 183, 225), rgb(17, 222, 31));
+  border-radius: 50%;
+  margin-top: 0%;
+  margin-left: 170%;
+
+}
+
+.bg .cir2{
+  width: 220px;
+  height: 220px;
+  background-image:linear-gradient(red, yellow);
+  border-radius: 50%;
+  margin-left: 500%;
+  margin-top: 80%;
+ 
+}
+
+
+.bg .cir3{
+  width: 120px;
+  height: 120px;
+  background-image:linear-gradient(rgb(175, 237, 19), rgb(10, 68, 241));
+  border-radius: 50%;
+  margin-left: 100%;
+  margin-top: -100%;
+
+}
+
+
+.bg .cir4{
+  width: 70px;
+  height: 70px;
+  background-image:linear-gradient(red, rgb(9, 225, 135));
+  border-radius: 50%;
+  margin-left: 450%;
+  margin-top: -370px;
+
+}
+
+
+
+.bg .cir5{
+  width: 150px;
+  height: 150px;
+  background-image:linear-gradient(rgb(249, 25, 230), yellow);
+  border-radius: 50%;
+  margin-left: 250%;
+  margin-top: 130%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.box{
+  width: 1100px;
+  height:600px;
+  backdrop-filter: blur(30px);
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-left: 220px;
+  position: fixed;
+  box-shadow: 10px -10px 8px black;
+}
+
+
+
+.box .logo h1{
+  color: white;
+  margin: 10px;
+  width: 650px;
+  text-align: left;
+  margin-bottom: 10px;
+  display: flex;
+  padding: 0px, 0px, 0px, 0px; 
+}
+
+
+.box .logo .png{
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+  border-radius: 50%;
+}
+
+.box .logo .png img{
+  width:40px;
+  height: 40px;
+  background-color: aliceblue;
+  border-radius: 50%;
+}
+
+
+
+.box .logo a{
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-size:x-large;
+  padding-left: 50px;
+  padding-top:15px;
+  padding-right: 20px; 
+}
+
+.box .logo {
+ 
+  text-align:right;
+  display: flex;
+  
+  
+}
+
+
+
+.text h1{
+  color: white;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 50px;
+  margin-top:100px ;
+  letter-spacing: 15px;
+}
+
+
+.text p{
+  color: white;
+  font-size: 25px;
+  margin-left: 55px;
+  
+}
+
+.text h3{
+  color: white;
+  font-size: 25px;
+  margin-left: 55px;
+  margin-top: 40px;
+  
+}
+
+.box button{
+  padding: 10px;
+  width: 110px;
+  border-radius: 7px;
+  font-size: 15px;
+  background-image:linear-gradient(rgb(5, 187, 254), rgb(5, 245, 25));
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+  text-align: center;
+  
+}
+
+.box .button{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+
+
+
+
+
+.box .web{
+  background-image: url('web2.jpeg');
+  background-size: cover;
+  margin-left: 640px;
+  width: 350px;
+  height: 350px;
+  margin-top: -220px;
+  opacity:1;
+  border-radius: 30px;
+  border-collapse: collapse;
+  border: 2px solid white;
+  animation-name: myanima;
+  animation-duration: 9s;
+  animation-timing-function:linear;
+  animation-iteration-count: infinite;
+  
+}
+
+
+@keyframes myanima{
+  0%{background-image:url('web2.jpeg');}
+  33%{background-image:url('webimg.jpg');}
+  66%{background-image:url('web3.jpg');}
+}
